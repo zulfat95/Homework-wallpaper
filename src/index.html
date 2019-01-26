@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wallpaper</title>
+</head>
+<body>
+<div class="ml-3">
+    <h1>Wallpaper</h1>
+    <label class="mb-3 mr-3" for="long">Введите длину стены(м):</label><input id="long"><br>
+    <label class="mb-3 mr-3" for="width">Введите ширину стены(м):</label><input id="width"><br>
+    <label class="mb-3 mr-3" for="height">Введите высоту потолка(м):</label><input id="height"><br>
+    <label class="mb-3 mr-3" for="wallpaperWidth">Введите ширину обоев(м):</label><input id="wallpaperWidth"><br>
+    <button class="mb-1 btn btn-success" id="calculate">Рассчитать</button>
+    <p>Понадобится количество рулонов: <span id="result"></span></p>
+</div>
+<script src="js/app.js" type="module"></script>
+<script src="js/lib.js" type="module"></script>
+</body>
+</html>
